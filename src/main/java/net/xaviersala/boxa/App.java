@@ -1,5 +1,11 @@
 package net.xaviersala.boxa;
 
+/**
+ * Programa que simula el funcionament de la 'boxa entre cavallers'.
+ *
+ * @author xavier
+ *
+ */
 public class App {
 
   public static void main(String[] args) {
@@ -11,7 +17,7 @@ public class App {
     // Poso els dos boxejadors en el combat
     Combat combat = new Combat(un,dos);
 
-    // Imprimeixo el guanyador mirant el resultat de combat()
+    // Imprimeixo el guanyador
     System.out.println("\nHa guanyat en " + combat.combat());
 
   }
