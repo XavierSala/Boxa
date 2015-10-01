@@ -1,0 +1,1 @@
+{"builders":{"configs":{},"default":"maven"},"mixinTypes":[],"runners":{"configs":{"recommend":{"ram":256,"variables":{},"options":{}}},"default":"system:/java/standalone/simple/cli"},"type":"maven","attributes":{"languageVersion":["1.6"],"language":["java"]},"description":"Programa de prova per veure com ho fa per treballar en Java (no web)"}
