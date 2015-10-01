@@ -24,7 +24,7 @@ Desafortunadament el que es protegeix només pot protegir tres llocs. Això vol 
 Es demana que desenvolupeu, fent servir orientació a objectes, un programa que permeti simular el funcionament del combat de boxa entre cavallers i el vagi radiant per pantalla.
 
     Ex.
-    $ ./boxa
+    $ java -jar Boxa-1.0-SNAPSHOT.jar
     MatxacaCaps(5) cop bloquejat per DestrossaPilotes(5)
     DestrossaPilotes(5) cop bloquejat per MatxacaCaps(5)
     MatxacaCaps(5) cop bloquejat per DestrossaPilotes(5)
