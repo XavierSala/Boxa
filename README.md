@@ -2,7 +2,7 @@
 
 La “boxa entre cavallers” es lleugerament més educada que la tradicional. En aquest tipus de boxa els contendents es claven cops però ho fan de forma ordenada
 
-El combat consisteix en anar repetint el mateix procés: 
+El combat consisteix en anar repetint el mateix procés:
 
 * Primer pica un mentre l’altre es protegeix
 * Després pica el segon mentre el primer es protegeix
@@ -12,6 +12,8 @@ El combat acaba quan un dels dos cau perquè ha rebut molts cops en llocs despro
 ## Cops i protecció
 
 Cada boxejador pot picar en quatre llocs diferents del seu contrincant.
+
+![Cops](atacs-boxa.png "On pot rebre?")
 
 Les proteccions que pot fer un boxejador són perfectes. Això vol dir que si rep un cop en una protecció no rebrà cap mal.
 
@@ -51,5 +53,3 @@ Es demana que desenvolupeu, fent servir orientació a objectes, un programa que 
     ...... Destrossa CAU!
     .
     GUANYADOR: Matxaca
-
-
