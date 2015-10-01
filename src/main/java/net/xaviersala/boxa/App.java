@@ -14,7 +14,6 @@ public class App {
     // Imprimeixo el guanyador mirant el resultat de combat()
     System.out.println("\nHa guanyat en " + combat.combat());
 
-
   }
 
 }
