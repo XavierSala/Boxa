@@ -25,31 +25,44 @@ Es demana que desenvolupeu, fent servir orientació a objectes, un programa que 
 
     Ex.
     $ ./boxa
-    Combat entre Matxaca i Destrossa
-    -------------------------------------
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Cop a panxa
-    ...Matxaca pica: Cop a cap
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Cop a cap
-    ...Matxaca pica: Cop a esquerra
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Cop a dreta
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Cop a cap
-    ...Destrossa pica: Cop a panxa
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Protegit
-    ...Matxaca pica: Protegit
-    ...Destrossa pica: Cop a panxa
-    ...Matxaca pica: Cop a esquerra
-    ...... Destrossa CAU!
-    .
-    GUANYADOR: Matxaca
+    MatxacaCaps(5) cop bloquejat per DestrossaPilotes(5)
+    DestrossaPilotes(5) cop bloquejat per MatxacaCaps(5)
+    MatxacaCaps(5) cop bloquejat per DestrossaPilotes(5)
+    DestrossaPilotes(5) cop bloquejat per MatxacaCaps(5)
+    MatxacaCaps(5) cop al cap de DestrossaPilotes(4)
+    DestrossaPilotes(4) cop bloquejat per MatxacaCaps(5)
+    MatxacaCaps(5) cop bloquejat per DestrossaPilotes(4)
+    DestrossaPilotes(4) cop bloquejat per MatxacaCaps(5)
+    MatxacaCaps(5) cop al costat dret de DestrossaPilotes(3)
+    DestrossaPilotes(3) cop al costat esquerra de MatxacaCaps(4)
+    MatxacaCaps(4) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop bloquejat per MatxacaCaps(4)
+    MatxacaCaps(4) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop bloquejat per MatxacaCaps(4)
+    MatxacaCaps(4) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop a la panxa de MatxacaCaps(3)
+    MatxacaCaps(3) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop bloquejat per MatxacaCaps(3)
+    MatxacaCaps(3) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop al costat esquerra de MatxacaCaps(2)
+    MatxacaCaps(2) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop bloquejat per MatxacaCaps(2)
+    MatxacaCaps(2) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop a la panxa de MatxacaCaps(1)
+    MatxacaCaps(1) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop bloquejat per MatxacaCaps(1)
+    MatxacaCaps(1) cop bloquejat per DestrossaPilotes(3)
+    DestrossaPilotes(3) cop bloquejat per MatxacaCaps(1)
+    MatxacaCaps(1) cop al costat esquerra de DestrossaPilotes(2)
+    DestrossaPilotes(2) cop bloquejat per MatxacaCaps(1)
+    MatxacaCaps(1) cop al costat esquerra de DestrossaPilotes(1)
+    DestrossaPilotes(1) cop bloquejat per MatxacaCaps(1)
+    MatxacaCaps(1) cop bloquejat per DestrossaPilotes(1)
+    DestrossaPilotes(1) cop bloquejat per MatxacaCaps(1)
+    MatxacaCaps(1) cop bloquejat per DestrossaPilotes(1)
+    DestrossaPilotes(1) cop bloquejat per MatxacaCaps(1)
+    MatxacaCaps(1) cop bloquejat per DestrossaPilotes(1)
+    DestrossaPilotes(1) cop al costat dret de MatxacaCaps(0)
+    MatxacaCaps(0) està KO!
+     
+    Ha guanyat en DestrossaPilotes
