@@ -11,7 +11,7 @@ import java.util.Random;
  */
 public class Boxejador {
 
-    private static final int VIDAPERDEFECTE = 5;
+    public static final int VIDAPERDEFECTE = 5;
     public static final int PUNTSDATAC = 4;
 
     Random aleatori = new Random();
@@ -70,7 +70,7 @@ public class Boxejador {
      * @return retorna si el boxejador està KO o no.
      */
     public boolean estaKO() {
-      return (vides == 0);
+      return (vides <= 0);
     }
 
     /**
@@ -78,6 +78,13 @@ public class Boxejador {
      */
     public String getNom() {
       return nom;
+    }
+
+    /**
+     * @return vida del boxejador
+     */
+    public int getVides() {
+      return vides;
     }
 
     /**
