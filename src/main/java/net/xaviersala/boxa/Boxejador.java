@@ -14,7 +14,7 @@ public class Boxejador {
     public static final int VIDAPERDEFECTE = 5;
     public static final int PUNTSDATAC = 4;
 
-    Random aleatori = new Random();
+    private Random aleatori = new Random();
 
     private String nom;
     private int vides;
